@@ -20,3 +20,7 @@ Por temas de potencia de cálculo en este caso he utilizado Google Colaboratory
 
 Codigo: Modelado LightGBM Regresion - ML.ipynb
 
+Las pruebas se han realizado solo con unos pocos hyperparámetros para comprobar su funcionamiento. Este algoritmo tiene más de 100 hyperparámetros para poder probar.
+
+Documentación: https://lightgbm.readthedocs.io/en/latest/Parameters.html
+
