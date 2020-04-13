@@ -13,3 +13,8 @@ Objetivo: Modelo de machine learning que sea capaz de predecir si un cliente va 
 
 Código: lightgradientboosting.ipynb
 
+### LightGBM - Regresión - Predicción de precios Airbnb
+
+Partimos de los ficheros csv ya limpios generados en el proyecto final del bootcamp. Este algoritmo LightGBM no se probó en la parte de Machine Learning así que lo vamos a probar aquí. Se parte de los ficheros **listings_train.csv** y **listings_test.csv**
+Por temas de potencia de cálculo en este caso he utilizado Google Colaboratory
+
