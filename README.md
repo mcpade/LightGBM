@@ -5,9 +5,9 @@ Se muestra en este proyecto el uso del algoritmo LightGBM para un problema de cl
 
 ### LightGBM - Clasificación - Predict customer churn in banks
 
-Partimos del dataset **Churn_Modelling.csv** que contiene datos de clientes bancarios recogidos durante 6 meses. La última columna del dataset "Exited" indica:
-- si está a 1 que el cliente dejó el banco
-- si está a 0 que el cliente permanece en el banco
+Partimos del dataset **Churn_Modelling.csv** que contiene datos de clientes bancarios recogidos durante 6 meses. La última columna del dataset "Exited" es nuestra columna objetivo y sus valores son:
+- 1: indica que el cliente dejó el banco
+- 0: indica que el cliente permanece en el banco
 
 Objetivo: Modelo de machine learning que sea capaz de predecir si un cliente va a dejar el banco o no. Vamos a utilizar para ello el modelo LightGBM
 
