@@ -1,26 +1,26 @@
 # LightGBM
-Uso del algoritmo LightGBM de Machine Learning
+Using the Machine Learning LightGBM algorithm
 
-Se muestra en este proyecto el uso del algoritmo LightGBM para un problema de clasificación y para un problema de regresión
+The use of the LightGBM algorithm for a classification problem and for a regression problem is shown in this project
 
 ### LightGBM - Clasificación - Predict customer churn in banks
 
-Partimos del dataset **Churn_Modelling.csv** que contiene datos de clientes bancarios recogidos durante 6 meses. La última columna del dataset "Exited" es nuestra columna objetivo y sus valores son:
-- 1: indica que el cliente dejó el banco
-- 0: indica que el cliente permanece en el banco
+We start from the **Churn_Modelling.csv** dataset that contains data from bank clients collected during 6 months. The last column of the "Exited" dataset is our target column and its values are:
+- 1: indicates that the customer left the bank
+- 0: indicates that the customer remains in the bank
 
-Objetivo: Modelo de machine learning que sea capaz de predecir si un cliente va a dejar el banco o no. Vamos a utilizar para ello el modelo LightGBM
+Objective: Machine learning model that is capable of predicting whether a customer is going to leave the bank or not. We are going to use the LightGBM model for this
 
-Código: lightgradientboosting.ipynb
+Code: lightgradientboosting.ipynb
 
-### LightGBM - Regresión - Predicción de precios Airbnb
+### LightGBM - Regression - Airbnb Price Prediction
 
-Partimos de los ficheros csv ya limpios generados en el proyecto final del bootcamp. Este algoritmo LightGBM no se probó en la parte de Machine Learning así que lo vamos a probar aquí. Se parte de los ficheros **listings_train.csv** y **listings_test.csv**
-Por temas de potencia de cálculo en este caso he utilizado Google Colaboratory
+We start from the clean csv files generated in the final bootcamp project. This LightGBM algorithm was not tested in the Machine Learning part so we are going to test it here. It starts from the files **listings_train.csv** and **listings_test.csv**
+For calculation power issues in this case I have used Google Colaboratory
 
-Codigo: Modelado LightGBM Regresion - ML.ipynb
+Code: LightGBM Regression Modeling - ML.ipynb
 
-Las pruebas se han realizado solo con unos pocos hyperparámetros para comprobar su funcionamiento. Este algoritmo tiene más de 100 hyperparámetros para poder probar.
+The tests have been carried out with only a few hyperparameters to verify their operation. This algorithm has more than 100 hyperparameters to test.
 
-Documentación: https://lightgbm.readthedocs.io/en/latest/Parameters.html
+Documentation: https://lightgbm.readthedocs.io/en/latest/Parameters.html
 
